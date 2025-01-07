@@ -1,0 +1,36 @@
+halal-multi-vendor-ecommerce/
+├── README.md
+├── backend/
+│   ├── api/
+│   │   ├── product.js
+│   │   ├── vendor.js
+│   │   └── order.js
+│   ├── auth/
+│   │   └── auth.js
+│   ├── database/
+│   │   └── connection.js
+│   └── server.js
+├── blockchain/
+│   ├── smart-contracts/
+│   │   ├── VendorRegistry.sol
+│   │   └── TransactionManager.sol
+│   └── deploy/
+│       └── deploy.js
+├── frontend/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── components/
+│   │   │   ├── ProductList.js
+│   │   │   ├── Login.js
+│   │   │   └── VendorRegister.js
+│   │   └── services/
+│   │       └── api.js
+│   └── package.json
+├── cloud-infrastructure/
+│   ├── docker-compose.yml
+│   ├── kubernetes/
+│   │   └── deployment.yaml
+│   ├── storage/
+│   │   └── s3-config.json
+│   └── load-balancer/
+│       └── nginx.conf
